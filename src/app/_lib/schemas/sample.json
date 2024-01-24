@@ -1,0 +1,71 @@
+[
+  {
+    "id": "name",
+    "type": "string",
+    "label": "Name",
+    "placeholder": "Enter your name",
+    "required": true,
+    "length": {
+      "min": 1,
+      "max": 100
+    },
+    "defaultValue": "John Doe"
+  },
+  {
+    "id": "age",
+    "type": "number",
+    "label": "Age",
+    "placeholder": "Enter your age",
+    "required": true,
+    "min": 1,
+    "max": 120,
+    "defaultValue": 30
+  },
+  {
+    "id": "newsletter",
+    "type": "boolean",
+    "label": "Subscribe to newsletter",
+    "required": false,
+    "defaultValue": false
+  },
+  {
+    "id": "gender",
+    "type": "select",
+    "label": "Gender",
+    "required": true,
+    "options": [
+      {
+        "label": "Male",
+        "value": "male"
+      },
+      {
+        "label": "Female",
+        "value": "female"
+      },
+      {
+        "label": "Other",
+        "value": "other"
+      }
+    ],
+    "defaultValue": "male"
+  },
+  {
+    "id": "email",
+    "type": "string",
+    "label": "Email",
+    "placeholder": "Enter your email",
+    "required": true,
+    "length": {
+      "min": 5,
+      "max": 100
+    },
+    "defaultValue": "johndoe@example.com"
+  },
+  {
+    "id": "terms",
+    "type": "boolean",
+    "label": "Accept Terms and Conditions",
+    "required": true,
+    "defaultValue": false
+  }
+]
